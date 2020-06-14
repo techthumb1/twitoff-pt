@@ -5,7 +5,6 @@ from web_app.routes.home_routes import home_routes
 from web_app.routes.book_routes import book_routes
 
 
-#DATABASE_URI = "sqlite:///C:r\\Users\\Aarons\\Desktop\\twitoff-pt5\\twitoff_development_pt5.db"
 DATABASE_URI = "sqlite:///C:\\Users\\Aarons\\Desktop\\TWITOFF-PT5\\web_app\\twitoff_development.db" 
 
 def create_app():
