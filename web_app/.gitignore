@@ -2,5 +2,7 @@
 
 # ignore dev database stuff:
 
+.env
+
 migrations
 *.db

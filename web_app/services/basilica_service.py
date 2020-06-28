@@ -9,6 +9,7 @@ connection = basilica.Connection(BASILICA_API_KEY)
 
 #def basilica_api_client():
 #    return basilica.Connection(BASILICA_API_KEY)
+
 if __name__ == "__main__":
     print(type(connection)) #> <basilica.Connection object at 0x102081b10>
     sentences = ["Hello world!", "How are you?"]
