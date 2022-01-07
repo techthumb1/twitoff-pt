@@ -1,15 +1,15 @@
-# TWITOFF-PT5
+## TWITOFF
 
 Web dev with Flask
 
-# Installation
+#### Installation
 
 ```sh
 git clone git@github.com:s2t2/twitoff-pt5.git
 cd twitoff-pt5/
 ```
 
-# Setup
+#### Setup
 
 ```sh
 pipenv install
@@ -23,7 +23,7 @@ FLASK_APP=web_app flask db migrate
 FLASK_APP=web_app flask db upgrade
 ```
 
-# Usage
+#### Usage
 
 ```sh
 FLASK_APP=web_app flask run
