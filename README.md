@@ -17,11 +17,11 @@ pipenv install
 
 Migrate the database:
 
-'''sh
+```sh
 FLASK_APP=web_app flask db init
 FLASK_APP=web_app flask db migrate
 FLASK_APP=web_app flask db upgrade
-'''
+```
 
 # Usage
 
